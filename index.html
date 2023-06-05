@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cinema Ticket Uygulama" />
+    <meta name="keywords" content="Cinema" />
+    <meta name="author" content="Anıl Gündüz" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Uygulama - Cinema</title>
+  </head>
+  <body>
+    <main>
+      <section class="screen"></section>
+      <section>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat reserved"></article>
+        <article class="seat reserved"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+      </section>
+      <section>
+        <article class="seat"></article>
+        <article class="seat reserved"></article>
+        <article class="seat reserved"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+      </section>
+      <section>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat reserved"></article>
+        <article class="seat reserved"></article>
+      </section>
+      <section>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat reserved"></article>
+        <article class="seat reserved"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+      </section>
+      <section>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat reserved"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+        <article class="seat"></article>
+      </section>
+      <section class="movie-list">
+        <select name="" id="movie">
+          <option disabled>Choose the Film</option>
+          <option value="25">Lord Of The Rings</option>
+          <option value="20">Harry Potter</option>
+          <option value="17">Star Wars</option>
+        </select>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <ul class="info">
+          <li>
+            <article class="seat selected"></article>
+            <span>Seçili</span>
+          </li>
+          <li>
+            <article class="seat"></article>
+            <span>Boş</span>
+          </li>
+          <li>
+            <article class="seat reserved"></article>
+            <span>Dolu</span>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="text">
+          <span id="count">3</span> adet koltuk için hesaplanan ücret
+          <span id="amount">10</span>₺.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
